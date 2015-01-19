@@ -7,7 +7,7 @@ get_header();
             <div class="col-md-12">
                 <div class="pagetitle">
                     <h1><?php echo get_bloginfo('name'); ?></h1>
-                    <h5><?php  echo get_bloginfo('description'); ?></h5>
+                    <h2><?php echo get_bloginfo('description'); ?></h2>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ get_header();
                                     </p>
                                 </div>
                                 <p>'.get_the_excerpt().'</p>
-                                <a href="'.get_permalink().'" class="link">Read More</a>
+                                <a href="'.get_permalink().'" class="link">Read More!</a>
                             </div>
                         </div>';
                     endwhile;
